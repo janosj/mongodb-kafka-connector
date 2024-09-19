@@ -1,0 +1,13 @@
+This is taken from the MongoDB Kafka Connector Sandbox Quick Start:
+https://www.mongodb.com/docs/kafka-connector/current/quick-start/
+
+The Sandbox uses Docker Desktop. Be sure it's installed and running.
+
+Specify a location for KAFKA_SANDBOX_HOME in demo.conf.
+download-sandbox.sh will download the Sandbox to this location.
+Make sure the location exists.
+
+Once it's running, you can access MongoDB on localhost:35001
+But note you can adjust the source and sink connectors to point to Atlas instead.
+The real benefit of the Sandbox is that you have a running Kafka instance with a properly configured set of MongoDB Kakfa connectors.
+
